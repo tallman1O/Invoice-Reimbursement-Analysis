@@ -1,5 +1,3 @@
-# ui/streamlit_app.py
-
 import streamlit as st
 import requests
 import json
@@ -105,5 +103,4 @@ if st.button("Analyze Invoices", use_container_width=True, type="primary"):
 
 st.markdown("---")
 st.caption("Powered by FastAPI, Streamlit, and Google Gemini AI.")
-st.markdown("For best results, ensure your PDFs are text-searchable, not just scanned images.")
 
